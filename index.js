@@ -55,6 +55,8 @@ const main = async () => {
       return acc;
     }, diffData);
 
+    console.log('[changedFiles]', changedFiles);
+
     /**
      * Loop over all the files changed in the PR
      **/
